@@ -1,0 +1,89 @@
+:root {
+    --branco-principal: #FFFFFF;
+    --cinza-secundario: #C0C0C0;
+    --botao-azul: #167BF7;
+    --cor-de-fundo: #00030C;
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    color: var(--branco-principal);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.principal {
+    background-image: url("img/Background.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.container {
+    height: 100vh;
+}
+
+.container__botao {
+    background-color: var(--botao-azul);
+    border-radius: 5px;
+    padding: 1em;
+    color: var(--branco-principal);
+}
+
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+Código omitido
+
+.botao_secundario {
+    background-color: transparent;
+        
+
+
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    color: var(--branco-principal);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+}
+.descricao__titulo {
+    font-weight: 700;
+    font-size: 48px;
+    color: var(--branco-principal);
+    margin-bottom: 0.1em;
+}
+.secundario__botao {
+    display: inline-block;
+    margin-top: 1em;
+}
+.container__descricao {
+    padding: 2em;
+}
+.dispositivos__lista {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 5em 0;
+}
+
+.dispositivos {
+    text-align: center;
+}
+
+.dispositivos__titulo {
+    font-size: 15px;
+    color: var(--branco-principal);
+}
+
+.lista__item {
+    font-size: 60px;
+    color: var(--branco-principal);
+}
+
